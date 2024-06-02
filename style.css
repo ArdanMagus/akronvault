@@ -1,20 +1,28 @@
 /*BODY*/
+
 body {
-    background: #0D0D0D;
-    /* margin: 0;  padding: 0;#141414 margin-bottom: 15px;  margin-top: 8px*/ 
-	font: 14px Helvetica, Tahoma, sans-serif; color: white;
+	background: #0D0D0D;
+    /* ;#141414 margin-bottom: 15px;  margin-top: 8px*/ 
+	font: small Helvetica, Tahoma, sans-serif; /*14px*/ color: white;
+	margin:0;
+  	padding:0;
+	border:none;
+	width: 100%;
+	height:100%;
+	
+	/*white-space: normal;*/
     /*Helvetica, Tahoma, sans-serif; Calibri,sans-serif;*/
 	}
 /*body {	background-color: #141414; 	font-family:Calibri,sans-serif; }*/
 
 /*TEXT / FORM*/
-h1 h2 h3 h4 { margin: 0;  font-weight: bold}
+h1, h2, h3, h4 { margin:auto; font-weight: bold }
 /*h1, h2, h3, h4 {    margin-top:10pt;    margin-bottom:10pt;	color:#4F81BD;}*/
-h1 { font-size: xx-large } /*2em*/
+h1 { font-size: xx-large; } /*2em*/
 h2 { font-size: x-large } /*1.6em*/
 h3 { font-size: large } /*h3 { 1.3em border-bottom: 1px solid gray;}*/
-h4 { font-size: small } /*h4 {  1.18em  font-weight: normal;	margin-bottom:0pt;}*/
-p { font-size:10pt;    margin:auto;    color: white; }
+h4 { font-size: small; } /*h4 {  1.18em  font-weight: normal;	margin-bottom:0pt;}*/
+p { /*font-size:*/ /*10pt;*/    margin:auto;    color: white; }
 
 a {  color: deepskyblue; }
 a:link, a:visited { text-decoration: none }
@@ -24,79 +32,57 @@ a.listitem { color: deepskyblue }
 a.listitem:hover { color: skyblue; }
 a.listitem:visited { color: darkcyan}
 
-
-ol li {list-style-type: decimal-leading-zero}
+ol li {list-style-type:decimal-leading-zero}
 
 input {	position:fixed;}
 
 /*TYPE / CLASS*/
 
-.blak { background-color: #fff; }
-.hide { display: none; }
+.list {	margin:0;
+		border:none; } /*padding:0;*/ /*margin:auto*/
+/*.hide { display: none; }*/
+
+/*.head {
+	width: 100%;
+	height:100%;
+}*/
 
 .main {
-    /*
-    width: 600px;
-    margin:auto;
-    height:100%;
-    left:20%;
-    position:fixed;
-    overflow:scroll;
-    */
-}
-.menu {
-    resize:horizontal;
-    width: 100px;
-    height:100%;
-    position:fixed;
-    display:hidden;
+	position:fixed;
+	display:hidden;
     overflow:hidden;
+/*  width: 80%;
+    margin-left:20%;
+    height:100%;*/
+    /*left:20%;*/
+/*	white-space:normal;*/
 }
-.menu:hover {    display:block;    overflow:scroll;}
 
-.b {	color: greenyellow;}
-.c {	color: gold;}
-.d {	color: darkred;}
-.item {	color: red;}
-.data {    width:520px;    margin:auto;}
-.note {   color: darkgray;	display:block;}
-.ref {    color:gray;	display:block;}
+/*.navi {*/
+/*    width: 20%; 100px
+	max-width: 100%;
+    height:100%;*/
+	/*resize:horizontal;*/
+    /*position:fixed;*/
+/*    display:hidden;
+    overflow:hidden;*/
+/*	white-space:normal;*/
+/*	white-space:nowrap;
+	overflow-wrap:nowrap;*/
+/*}*/
+/*.navi:hover{
+	display:block;  
+	overflow:scroll;
+}*/
 
-/*OTHER*/
-/*#subTitle {    background: #000;  color: #000;  padding: 4px;  font-weight: bold; }*/
-/*#siteNavigation a, #siteNavigation .current {
-	font-weight: bold; background-color: gray
-	}*/
-/*#siteNavigation { font-weight: bold }
-#siteNavigation a:link    { text-decoration: none; }
-#siteNavigation a:visited { text-decoration: none; }
-#siteNavigation .current { background-color: #ccd; }
-#siteNavigation a:hover   { text-decoration: none;  background-color: #fff;  color: #000; }
-#siteNavigation a:active  { text-decoration: none;  background-color: #646; }*/
+.table {
+	border:1px;
+	border-collapse:collapse;
+}
 
-/*PAGE*/
-/*#pageContent {
-	clear: both;
-	border-bottom: 6px solid #000;
-	padding: 10px;  padding-top: 20px;
-	line-height: 1.65em;*/
-    
-	/*background-image: url(Alma_2016.jpg);*/
-/*	background-repeat:no-repeat; no-repeat
-	background-position: left;
-	}*/
-
-/*#pageContent, #siteNavigation {	background-color:red; #323232	}*/
-
-/*.imgLeft  { float: left;   margin-right: 10px;  margin-bottom: 10px; }
-.imgRight { float: right;  margin-left: 10px;   margin-bottom: 10px; }*/
-
-/*hr { height: 1px;  color: #000;  background-color: #000;  margin-bottom: 15px; }*/
-
-
-/*.tableWidth { min-width: 90%; } 400px*/
-
-/*.tblRegular       { border-collapse: collapse; }
-.tblRegular td    { padding: 6px;  background-image: url(Patterns/fade.gif);  border: 2px solid #99c; }
-.tblHeaderColor, .tblHeaderColor td { background: black; }
-.tblNoBorder td   { border: 0; }*/
+.line { text-decoration: underline; }
+.c1 {	color: #9BBB59;}
+.c2 {	color: #F79646;}
+.c3 {	color: #C0504D;}
+.note {   color: darkgray;	/*display:block;*/}
+.ref {    color:gray;	} /*display:block;*/

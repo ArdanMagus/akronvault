@@ -1,0 +1,61 @@
+main {
+	display: grid;
+    border: 0px;
+    padding: 0px;
+    grid-gap: 0px;
+    
+    grid-template: 
+    "nav head" min-content
+    "nav main" 1fr
+        / min-content 1fr;
+	height:100vh;
+	overflow: hidden;
+}
+
+/*embed{
+	margin:0;
+  	padding:0;
+	border:none;
+}*/
+
+nav {
+    grid-area: nav;
+    border: 0px dotted blue;
+
+	overflow: hidden;
+    resize: horizontal;
+	
+	width: 200px; /*max-content*/
+	height: 100vh;
+    min-width: 0vw;
+    max-width: 100vw;
+}
+
+header {
+    grid-area: head;
+    border: 0px dotted orange;
+    overflow: hidden;
+	
+    resize: vertical;
+    
+	width: 100%;
+	height: 100px; /*min-content*/
+    min-height: 0vh;
+    max-height: 100vh;
+	
+}
+
+section {
+    grid-area: main;
+	display:hidden;
+	overflow: hidden;
+/*    border: 0px solid gray;*/
+}
+section.sect {
+	display:block;  
+	overflow:scroll;
+}
+
+iframe {
+	width:100%; height:100%; border:none;
+}
