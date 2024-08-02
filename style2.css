@@ -1,0 +1,20 @@
+body {
+	background: #0d0d0d;
+    /* ;#141414 margin-bottom: 15px;  margin-top: 8px*/ 
+	font: small Helvetica, Tahoma, sans-serif; /*14px*/ color: white;
+	margin:0;
+  	padding:0;
+	border:none;
+	}
+    header {
+        background-color:#161616;
+    }
+
+    .navi ul {
+		list-style-type: none;
+		padding:0px;
+		margin:0px;
+		margin: hidden;
+		overflow: hidden;
+	}
+
