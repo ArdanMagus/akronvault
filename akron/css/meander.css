@@ -1,14 +1,20 @@
 nav.menu{
 	background-color:#63619C;
-	font-size : large;
-    margin:0px;
-    padding:0px;
+	padding-left:50px;
+}
+nav.menu ul {
+	padding:0px;
+	margin:0px;
+
+	overflow: hidden;
 }
 nav.list a{ color:#bebdf2;}
-nav.list a:hover{ color:#63619C;}
+nav.list a:hover{ color:#eee; background: #41405f }
+/*  color:#63619C */
 
 h3{	background:#63619C; text-transform:uppercase;
 }
+a.x {background:#41405f;}
 
 .lang { 
     font-size:large;
@@ -22,7 +28,8 @@ a:hover { color: #aaa}
 
 .page {
 	background-color: #c9c9d4;
-
+	background-color: #28282e;
+	background-color: #303438;
 	width:850px;
 	height:auto;
 	margin-right:auto;
@@ -42,6 +49,7 @@ a:hover { color: #aaa}
 	margin:0;
 
     color:#333;
+	color:#eee;
     text-align:left;
 	word-spacing:1.px;
 	letter-spacing:0.1px;
@@ -51,5 +59,5 @@ a:hover { color: #aaa}
 .text h2 { font-size:16px }
 .text h3 {font-size: 14px;  color: #eeeeee;}
 .text h4 {font-size: 12px;}
-.text a{ color:#63619C;}
+.text a{ color:#63619C; color:#bebdf2}
 .text a:hover{ color:#eeeeee; background:#63619C}

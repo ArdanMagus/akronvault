@@ -13,15 +13,23 @@ body {
 /*body {	background-color: #141414; 	font-family:Calibri,sans-serif; }*/
 /*header {}*/
 
-nav.menu{
+nav.home{
+    background:#232629;
+	list-style-type: none;
+}
+nav.home, nav.menu{
 	font-size : large;
 	font-weight: bold;
 }
-#nav.menu ul {
+nav.home ul {
+	padding:0px;
+	margin:0px;
+	text-align:center}
+nav.menu ul, nav.list ul {
 	padding:0px;
 	margin:0px;
 }
-nav.menu li {
+nav.home li, nav.menu li {
 	display: inline-block;  /* NAVBAR HORIZONTAL, no float */
 	/* overflow:hidden; CREE UNE LIGNE */
 	padding:0px;
@@ -29,37 +37,13 @@ nav.menu li {
 	padding-left: 5px;
 	padding-right: 5px;
 }
-nav.list ul {
-	padding:0px;
-	margin:0px;
-}
 nav.list li {
 	display: inline-block;  /* NAVBAR HORIZONTAL, no float */
 	padding-right: 20px;
 }
 
-/*DIVS*/
-.xav ul {
-	width: 800px;
-
-	background-color:#774848;
-	list-style-type: none;
-
-	padding:0px;
-	margin:0px;
-
-}
-.xav li {
-	display: inline-block;  /* NAVBAR HORIZONTAL, no float */
-
-}
-
-.grid {
-	overflow: hidden;
-}
-
 .page {
-	background-color: #ccc;
+	background-color: #aaa;
 
 	width:850px;
 	height:auto;
@@ -69,7 +53,6 @@ nav.list li {
 	display:block;
 	padding:0;
 	clear:both;
-
 }
 .text {
 	position:relative;
@@ -85,7 +68,7 @@ nav.list li {
 	line-height:17px;
 }
 
-
+.swap{text-align:right}
 .lang{    text-align:right;
 		font-size:large;
 		font-weight:bold;

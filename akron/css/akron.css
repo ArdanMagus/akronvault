@@ -1,7 +1,6 @@
 nav.menu{
     background:#232629;
 	list-style-type: none;
-	font-size : large;
 }
 nav.menu ul {
 	padding:0px;
@@ -15,7 +14,8 @@ nav.menu li {
 	padding-right: 10px;
 
     /* padding:0 0 0 1px; */
-	color:#EEE;
+	color:#eee;
+	color:#303438;
 	/* text-transform:uppercase; */
 	/* font-stretch:extra-condensed; */
 	letter-spacing:2px;
@@ -25,3 +25,4 @@ nav a {	color: #eee; font-weight: bold }
 
 a { color:#dddddd;}
 a:hover { color: #aaa}
+a.x {background: #303438;}
