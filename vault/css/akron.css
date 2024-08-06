@@ -1,0 +1,38 @@
+nav.menu{
+    background:#232629;
+	list-style-type: none;
+}
+nav.menu ul {
+	padding:0px;
+	margin:0px;
+    text-align:center;
+	overflow: hidden;
+}
+nav.menu li {
+	/* display: inline-block;  NAVBAR HORIZONTAL, no float */
+	padding-left: 10px;
+	padding-right: 10px;
+
+    /* padding:0 0 0 1px; */
+	color:#eee;
+	color:#303438;
+	/* text-transform:uppercase; */
+	/* font-stretch:extra-condensed; */
+	letter-spacing:2px;
+	font:bold 14px Geneva, Arial, Helvetica, sans-serif;
+}
+nav a {	color: #bbb; font-weight: bold }
+nav a:hover {color: #777; font-weight: bold }
+/* NOTE : PRIORITE QUI FAIT AUCUN SENS */
+/* NAV A EST PRIO SUR A */
+/* A HOVER EST PRIO SUR NAV A HOVER */
+
+a { color:#ddd; }
+a:hover { color: #888 }
+a.x {background: #303438;}
+
+table.menu{
+	margin:0 auto;
+	width:800px; border:0px; padding: 0px; border-spacing:0px;
+}
+table.menu td {text-align: center; width:200px}
