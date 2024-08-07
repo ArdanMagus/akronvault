@@ -1,3 +1,11 @@
-
+nav.menu{
+	color: #555;
+	background:#ccc;
+	padding-left:50px;
+	margin:0px;
+	margin:0px;
+}
+nav.menu a{color:#111}
+nav.menu a:hover{color:#555}
 
 h3 {	color: #111; background:#ccc;}

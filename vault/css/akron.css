@@ -21,8 +21,7 @@ nav.menu li {
 	letter-spacing:2px;
 	font:bold 14px Geneva, Arial, Helvetica, sans-serif;
 }
-nav a {	color: #bbb; font-weight: bold }
-nav a:hover {color: #777; font-weight: bold }
+
 /* NOTE : PRIORITE QUI FAIT AUCUN SENS */
 /* NAV A EST PRIO SUR A */
 /* A HOVER EST PRIO SUR NAV A HOVER */

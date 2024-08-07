@@ -1,13 +1,18 @@
 nav.menu{
-	background-color:#63619C;
+	color:#bebdf2;
+	background-color:#41405f;
 	padding-left:50px;
+	margin:0px;
+	margin:0px;
 }
 nav.menu ul {
 	padding:0px;
 	margin:0px;
-
 	overflow: hidden;
 }
+nav.menu a {color:#eee}
+nav.menu a:hover { color:#bebdf2 }
+
 nav.list a{ color:#bebdf2;}
 nav.list a:hover{ color:#eee; background: #41405f }
 /*  color:#63619C */
@@ -60,4 +65,5 @@ a:hover { color: #aaa}
 .text h3 {font-size: 14px;  color: #eeeeee;}
 .text h4 {font-size: 12px;}
 .text a{ color:#63619C; color:#bebdf2}
-.text a:hover{ color:#eeeeee; background:#63619C}
+.text a:hover{ color:#7270b3; }
+/* color:#eeeeee; background:#63619C */
