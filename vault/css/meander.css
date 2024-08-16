@@ -1,3 +1,4 @@
+nav.home{text-align: right;}
 nav.menu{
 	color:#bebdf2;
 	background-color:#41405f;
@@ -17,7 +18,7 @@ nav.list a{ color:#bebdf2;}
 nav.list a:hover{ color:#eee; background: #41405f }
 /*  color:#63619C */
 
-h3{	background:#63619C; text-transform:uppercase;
+h3{	background:#63619C;
 }
 a.x {background:#41405f;}
 

@@ -3,3 +3,14 @@ nav.menu{
     margin:0px;
     padding:0px;
 }
+nav.menu2{
+    background-color:#1a1a1a;
+    list-style-type: none;
+}
+nav.menu2 li {
+	display: inline-block;  /* NAVBAR HORIZONTAL, no float */
+	/* overflow:hidden; CREE UNE LIGNE */
+	padding:0 0 0 10px;
+	margin:0px;
+    
+}
