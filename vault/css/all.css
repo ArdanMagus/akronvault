@@ -112,6 +112,7 @@ a.listitem:hover { color: skyblue; }
 a.listitem:visited { color: darkcyan}
 
 /* DIV */
+.title{width:850px}
 .logo{text-align:center}
 .line { text-align:"center"; width:800px }
 
