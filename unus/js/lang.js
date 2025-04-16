@@ -11,7 +11,7 @@ function Switch(check, name) {
 }
 
 function Myprint(o) {
-	if (o == 'withinfo') {		head += '<link href="../styles.css" rel="stylesheet" type="text/css">';	}
-	if (o == 'withoutinfo') {	head += '<link href="../styles_hide.css" rel="stylesheet" type="text/css">';	}
+	// if (o == 'withinfo') {		head += '<link href="../styles.css" rel="stylesheet" type="text/css">';	}
+	// if (o == 'withoutinfo') {	head += '<link href="../styles_hide.css" rel="stylesheet" type="text/css">';	}
 	document.getElementsByTagName('head')[0].innerHTML = head;
 }

@@ -1,17 +1,41 @@
 /*BODY*/
 
+html { scroll-behavior: smooth; }
+
 body {
+	--sb-width: 5rem;
 	background: #131415; /*13 : 0D0D0D */
     /* ;#141414 margin-bottom: 15px;  margin-top: 8px*/ 
 	font: 12px Helvetica, Tahoma, sans-serif; /*14px*/ color: #eeeeee;
-	margin:0;
-  	padding:0;
+	margin:0; padding:0; /*remove default spacing */
+	min-height: 100vh; /*page fill window height */
 	border:none;
+	/* display: flex; breaks vertical display */
 	}
 		/*white-space: normal;*/
     /*Helvetica, Tahoma, sans-serif; Calibri,sans-serif;*/
 /*body {	background-color: #141414; 	font-family:Calibri,sans-serif; }*/
 /*header {}*/
+body.sb-expanded {
+	--sb-width: 12.5rem;
+}
+
+/* # for single elements // . for multiple elements */
+#side {
+	background-color:grey;
+	/* width: 200px;  fixed width*/
+	width: var(--sb-width);
+	inset: 0 auto 0 0; position: fixed; overflow-y:scroll}
+#side::-webkit-scrollbar {	display: none; } /* hide in Chrome, Safari and Opera */
+#side {	-ms-overflow-style: none;  /* hide in IE and Edge */ scrollbar-width: none;  /* Firefox */}
+
+main {flex-grow: 1;}
+
+.side ~ nav {border: 1px solid grey;}
+nav li{	list-style: none;}
+nav span {display:none}
+sidemenu li:last-child {margin-top: auto;}
+.sb-expanded nav a span{	display:block; opacity: 1; visibility:visible; }
 
 /* NAV */
 nav.home, nav.menu {

@@ -1,38 +1,8 @@
 const response = {
     "data": [
-       {
-          "name": "Bulbasaur",
-          "type": "Grass",
-          "hp": 45,
-          "attack": 49,
-          "defense": 49,
-          "spAttack": 65,
-          "spDefense": 65,
-          "speed": 45,
-          "total": 318
-       },
-       {
-          "name": "Ivysaur",
-          "type": "Grass",
-          "hp": 60,
-          "attack": 62,
-          "defense": 63,
-          "spAttack": 80,
-          "spDefense": 80,
-          "speed": 60,
-          "total": 405
-       },
-       {
-          "name": "Venusaur",
-          "type": "Grass",
-          "hp": 80,
-          "attack": 82,
-          "defense": 83,
-          "spAttack": 100,
-          "spDefense": 100,
-          "speed": 80,
-          "total": 525
-       },
+       {          "name": "Bulbasaur",		"type": "Grass",	"hp": 45,	"attack": 49,	"defense": 49,	"spAttack": 65,	"spDefense": 65,	"speed": 45,	"total": 318       },
+       {          "name": "Ivysaur",				"type": "Grass",	"hp": 60,	"attack": 62,	"defense": 63,	"spAttack": 80,	"spDefense": 80,	"speed": 60,	"total": 405       },
+       {          "name": "Venusaur",		"type": "Grass",	"hp": 80,	"attack": 82,	"defense": 83,	"spAttack": 100,"spDefense": 100,"speed": 80,	"total": 525       },
        {
           "name": "Charmander",
           "type": "Fire",

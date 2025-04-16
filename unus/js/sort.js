@@ -15,6 +15,7 @@ function sortTable(id, column) {
       shouldSwitch = false;
       x = rows[i].getElementsByTagName("td")[column]; // NOTE / CONTRAINTE : trie brutalement le texte, inclus <li> <h>
       y = rows[i + 1].getElementsByTagName("td")[column];
+	  // NOTE : ENORME CONTRAINTE ; si contient un lien <a> CA TRIE LE CONTENUE DU LIEN AVANT LE TEXTE
 
       if (revert)
       {
@@ -29,7 +30,6 @@ function sortTable(id, column) {
           break;
         }
       }
-
     }
 
     if (shouldSwitch) {
