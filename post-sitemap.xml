@@ -1,50 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https:/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/en/post-2</loc>
+		<loc>https:/en/post-2</loc>
 		<lastmod>2025-04-06T22:51:02+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/ddsddz</loc>
+		<loc>https:/fr/ddsddz</loc>
 		<lastmod>2025-04-07T00:05:06+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/post-182</loc>
+		<loc>https:/en/post-182</loc>
 		<lastmod>2025-04-09T21:26:25+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/axem-fr</loc>
+		<loc>https:/fr/axem-fr</loc>
 		<lastmod>2025-04-15T14:02:37+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/Nero-A4-16-2.png</image:loc>
+			<image:loc>https:/wp-content/files/Nero-A4-16-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/files/Nero-A4-16-2.png</image:loc>
+			<image:loc>https:/wp-content/files/Nero-A4-16-2.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/axem</loc>
+		<loc>https:/en/axem</loc>
 		<lastmod>2025-04-15T14:37:57+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/Nero-A4-16-2.png</image:loc>
+			<image:loc>https:/wp-content/files/Nero-A4-16-2.png</image:loc>
 		</image:image>
 		<image:image>
-			<image:loc>/wp-content/files/Nero-A4-16-2.png</image:loc>
+			<image:loc>https:/wp-content/files/Nero-A4-16-2.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/voyager</loc>
+		<loc>https:/en/voyager</loc>
 		<lastmod>2025-04-15T14:48:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/voyageur</loc>
+		<loc>https:/fr/voyageur</loc>
 		<lastmod>2025-04-15T14:50:15+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/akron.png</image:loc>
+			<image:loc>https:/wp-content/files/akron.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/fr/hellow-world</loc>
+		<loc>https:/fr/hellow-world</loc>
 		<lastmod>2025-04-15T15:12:57+00:00</lastmod>
 	</url>
 </urlset>

@@ -1,55 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https:/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/en/</loc>
+		<loc>https:/en/</loc>
 		<lastmod>2025-04-16T11:55:21+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/akron.png</image:loc>
+			<image:loc>https:/wp-content/files/akron.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/test</loc>
+		<loc>https:/en/test</loc>
 		<lastmod>2025-04-06T16:50:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/meander</loc>
+		<loc>https:/en/meander</loc>
 		<lastmod>2025-04-14T13:58:55+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/meander.png</image:loc>
+			<image:loc>https:/wp-content/files/meander.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/en/author</loc>
+		<loc>https:/en/author</loc>
 		<lastmod>2025-04-14T14:02:29+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/auteur</loc>
+		<loc>https:/fr/auteur</loc>
 		<lastmod>2025-04-15T16:30:15+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/purge-fr</loc>
+		<loc>https:/fr/purge-fr</loc>
 		<lastmod>2025-04-15T16:54:22+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/across-fr</loc>
+		<loc>https:/fr/across-fr</loc>
 		<lastmod>2025-04-16T10:58:11+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/across</loc>
+		<loc>https:/en/across</loc>
 		<lastmod>2025-04-16T11:08:34+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/akron.png</image:loc>
+			<image:loc>https:/wp-content/files/akron.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/fr/</loc>
+		<loc>https:/fr/</loc>
 		<lastmod>2025-04-16T11:56:04+00:00</lastmod>
 		<image:image>
-			<image:loc>/wp-content/files/akron.png</image:loc>
+			<image:loc>https:/wp-content/files/akron.png</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>/fr/beyond-fr</loc>
+		<loc>https:/fr/beyond-fr</loc>
 		<lastmod>2025-04-16T12:02:45+00:00</lastmod>
 	</url>
 </urlset>

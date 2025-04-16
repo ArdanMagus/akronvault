@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https:/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/en/category/charas</loc>
+		<loc>https:/en/category/charas</loc>
 		<lastmod>2025-04-15T14:48:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/category/non-classe</loc>
+		<loc>https:/fr/category/non-classe</loc>
 		<lastmod>2025-04-15T15:12:57+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/category/old</loc>
+		<loc>https:/en/category/old</loc>
 		<lastmod>2025-04-15T14:48:33+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/fr/category/persos</loc>
+		<loc>https:/fr/category/persos</loc>
 		<lastmod>2025-04-15T14:02:37+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/en/category/uncategorized-en</loc>
+		<loc>https:/en/category/uncategorized-en</loc>
 		<lastmod>2025-04-09T21:26:25+00:00</lastmod>
 	</url>
 </urlset>
