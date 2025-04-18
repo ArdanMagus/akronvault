@@ -14,7 +14,7 @@ nav.menu li {
 	padding-right: 10px;
 
     /* padding:0 0 0 1px; */
-	color:#eee;
+	color: #E6E6E6;
 	color:#303438;
 	/* text-transform:uppercase; */
 	/* font-stretch:extra-condensed; */
@@ -26,8 +26,10 @@ nav.menu li {
 /* NAV A EST PRIO SUR A */
 /* A HOVER EST PRIO SUR NAV A HOVER */
 
-a { color:#ddd; }
-a:hover { color: #888 }
+a {  color: #4095BF; } /* #eee  */
+a:hover  {  color: #00AAFF; text-decoration: underline } /* #aaa */
+/* a { color:#ddd; }
+a:hover { color: #888 } */
 a.x {background: #303438;}
 
 table.menu{
